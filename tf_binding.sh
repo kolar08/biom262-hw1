@@ -13,3 +13,5 @@ bedtools intersect -a gencode.v19.annotation.chr22.transcript.promoter.gtf -b tf
 
 #exercise 5
 bedtools getfasta -s -fi GRCh37.p13.chr22.fa -bed gencode.v19.annotation.chr22.transcript.promoter.nfkb.gtf -fo gencode.v19.annotation.chr22.transcript.nfkb.fasta
+
+Hello i am a message in standard out (stdout)
