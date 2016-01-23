@@ -1,3 +1,10 @@
+#PBS -q hotel -q hotel 
+#PBS -l nodes=1:ppn=1
+#PBS -l walltime=0:20:00 
+#PBS -N tf_binding.sh
+
+
+
 cd ~/githw/biom262-hw1
 
 #exercise 1
